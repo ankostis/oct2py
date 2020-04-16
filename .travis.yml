@@ -15,6 +15,8 @@ env:
     - CONDA="python=2.7 numpy>=1.11 scipy=0.17.0" KERNEL="python2"
     - CONDA="python=3.5 scipy" KERNEL="python3"
     - CONDA="python=3.6 scipy" KERNEL="python3"
+    - CONDA="python=3.7 scipy" KERNEL="python3"
+    - CONDA="python=3.8 scipy" KERNEL="python3"
 
 before_install:
   - sudo apt-get install -qq octave octave-signal liboctave-dev;
